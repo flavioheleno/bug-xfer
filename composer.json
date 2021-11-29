@@ -1,0 +1,24 @@
+{
+    "config":
+    {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories":
+    [
+        {
+            "type": "path",
+            "url": "../../open-source/php-github-api"
+        }
+    ],
+    "require":
+    {
+        "knplabs/github-api": "^3.3",
+        "lcobucci/jwt": "^4.1",
+        "nyholm/psr7": "^1.4",
+        "php-http/curl-client": "^2.2"
+    }
+}
